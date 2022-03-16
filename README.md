@@ -46,6 +46,8 @@ https://github.com/HectorTorresE/math-magicians.git
 
 - then, run `npm install` in your comand prompt, this will install all the listed dependencies on the package.json file.
 
+- Finally, run `npm start` in your comand prompt, this will run the project in your local host.
+
 ### Usage: 🎉
 
 - Edit the content as you like.
