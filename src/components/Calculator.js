@@ -1,4 +1,18 @@
+import { useState } from 'react';
+import calculate from '../logic/calculate';
+
 function Calculator() {
+  const [total, setTotal] = useState(0);
+  const [next, setNext] = useState(null);
+  const [operation, setOperation] = useState(null);
+
+  function Handler(e) {
+    const result = calculate({ total, next, operation }, e.target.textContent);
+    setTotal(result.total);
+    setNext(result.next);
+    setOperation(result.operation);
+  }
+
   const createInputs = () => {
     const inputs = ['AC', '+/-', '%', '÷', '7', '8', '9', '*', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
     const btns = [];
@@ -15,11 +29,13 @@ function Calculator() {
     return btns;
   };
 
+
   return (
-    <div className="calculator">
+    <div className="calculator" role="button" tabIndex="0" onClick={Handler}>
       <div className="result">
-        <span>(0)</span>
-        0
+        {total}
+        {operation}
+        {next}
       </div>
       <div className="digits">
         {createInputs()}
