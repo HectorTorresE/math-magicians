@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
 
-function Calculator() {
+const Calculator = () => {
   const [total, setTotal] = useState(0);
   const [next, setNext] = useState(null);
   const [operation, setOperation] = useState(null);
@@ -29,11 +29,8 @@ function Calculator() {
     return btns;
   };
 
-  const keyboardHandler = () => {
-  };
-
   return (
-    <div className="calculator" role="button" tabIndex="0" onClick={Handler} onKeyDown={keyboardHandler}>
+    <div className="calculator" role="button" tabIndex="0" onClick={Handler} onKeyDown={Handler}>
       <div className="result">
         {total}
         {operation}
@@ -44,6 +41,6 @@ function Calculator() {
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;
