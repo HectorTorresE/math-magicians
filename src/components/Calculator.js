@@ -29,9 +29,6 @@ function Calculator() {
     return btns;
   };
 
-  const keyboardHandler = () => {
-  };
-
   return (
     <div className="calculator" role="button" tabIndex="0" onClick={Handler} onKeyDown={keyboardHandler}>
       <div className="result">
