@@ -30,7 +30,7 @@ function Calculator() {
   };
 
   return (
-    <div className="calculator" role="button" tabIndex="0" onClick={Handler} onKeyDown={keyboardHandler}>
+    <div className="calculator" role="button" tabIndex="0" onClick={Handler} onKeyDown={Handler}>
       <div className="result">
         {total}
         {operation}
