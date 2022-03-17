@@ -29,9 +29,12 @@ function Calculator() {
     return btns;
   };
 
+  const keyboardHandler = () => {
+    return;
+  };
 
   return (
-    <div className="calculator" role="button" tabIndex="0" onClick={Handler}>
+    <div className="calculator" role="button" tabIndex="0" onClick={Handler} onKeyDown={keyboardHandler}>
       <div className="result">
         {total}
         {operation}
