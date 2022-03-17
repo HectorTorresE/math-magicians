@@ -30,7 +30,6 @@ function Calculator() {
   };
 
   const keyboardHandler = () => {
-    return;
   };
 
   return (
