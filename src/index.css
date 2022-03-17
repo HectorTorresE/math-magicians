@@ -69,3 +69,11 @@ button {
 .zero {
   min-width: 50%;
 }
+
+button:active {
+  opacity: 0.9;
+}
+
+button.operators:active {
+  opacity: 0.6 !important;
+}
