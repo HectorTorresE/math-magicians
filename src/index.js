@@ -1,11 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import App from './App';
+import Home from './pages/home';
+import Quote from './pages/quote';
+import Calculator from './pages/calculator';
+import NavBar from './components/navbar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="Home" element={<Home />} />
+        <Route path="calculator" element={<Calculator />} />
+        <Route path="quote" element={<Quote />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root'),
 );
