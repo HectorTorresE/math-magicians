@@ -1,11 +1,11 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Home from './pages/home';
 import Quote from './pages/quote';
 import Calculator from './pages/calculator';
 import NavBar from './components/navbar';
-import ReactDOM from 'react-dom';
 
 ReactDOM.render(
   <React.StrictMode>

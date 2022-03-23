@@ -21,7 +21,6 @@ const NavBar = () => {
     },
   ];
 
-
   return (
     <nav className="NavBar">
       <img src={Logo} alt="Math" />

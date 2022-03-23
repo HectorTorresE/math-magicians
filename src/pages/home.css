@@ -3,11 +3,12 @@
   min-height: 90vh;
   padding-top: 3%;
   background-color: lightgrey;
-  zoom: 150%;
+  zoom: 0%;
 }
 
 .homePage > h1 {
-  margin: 0 auto; 
+  margin: 0 auto;
+
   text-align: center;
 }
 

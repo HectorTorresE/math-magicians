@@ -13,5 +13,3 @@ class CalculatorPage extends React.PureComponent {
 }
 
 export default CalculatorPage;
-
-
