@@ -1,0 +1,26 @@
+.NavBar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(65, 64, 64);
+  zoom: 120%;
+}
+
+.NavBar img {
+  width: 50px;
+}
+
+.NavBar .link {
+  margin-inline: 5px;
+  text-decoration: none;
+  color: orange;
+}
+
+.NavBar .link:hover {
+  color: orange;
+}
+
+.NavBar .h1 {
+  color: orange;
+}
