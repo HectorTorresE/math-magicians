@@ -7,7 +7,6 @@ describe('Calculate function', () => {
       operation: '+',
       next: '2',
     };
-  
     const result = calculate(obj, '0');
     expect(result.next).toBe('20');
   });
@@ -26,7 +25,6 @@ describe('Calculate function', () => {
       operation: '+',
       next: null,
     };
-    
     const result = calculate(obj, '-');
     expect(result.operation).toBe('-');
     expect(result.total).toBe('5');
@@ -37,7 +35,6 @@ describe('Calculate function', () => {
       operation: null,
       next: '0',
     };
-    
     const result = calculate(obj, '0');
     expect(result).toStrictEqual({});
   });
@@ -47,7 +44,6 @@ describe('Calculate function', () => {
       operation: '+',
       next: '2',
     };
-    
     const result = calculate(obj, '=');
     let newResult = calculate(result, '-');
     expect(newResult.operation).toBe('-');
@@ -61,7 +57,6 @@ describe('Calculate function', () => {
       operation: '+',
       next: '3',
     };
-  
     const result = calculate(obj, 'AC');
     expect(result.total).toBe(0);
     expect(result.operation).toBe(null);
