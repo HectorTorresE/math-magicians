@@ -1,6 +1,6 @@
 import operate from '../logic/operate';
-describe('Operate function', () => {
 
+describe('Operate function', () => {
   test('Multiply', () => {
     const n1 = 67;
     const n2 = 5;
