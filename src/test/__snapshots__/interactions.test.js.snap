@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components testing Calculator Component 1`] = `
+<div
+  className="calculator"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="button"
+  tabIndex="0"
+>
+  <div
+    className="result"
+  >
+    0
+  </div>
+  <div
+    className="digits"
+  >
+    <button
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="operators"
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      type="button"
+    >
+      7
+    </button>
+    <button
+      type="button"
+    >
+      8
+    </button>
+    <button
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="operators"
+      type="button"
+    >
+      *
+    </button>
+    <button
+      type="button"
+    >
+      4
+    </button>
+    <button
+      type="button"
+    >
+      5
+    </button>
+    <button
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="operators"
+      type="button"
+    >
+      -
+    </button>
+    <button
+      type="button"
+    >
+      1
+    </button>
+    <button
+      type="button"
+    >
+      2
+    </button>
+    <button
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="operators"
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="zero"
+      type="button"
+    >
+      0
+    </button>
+    <button
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="operators"
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Components testing NavBar Component 1`] = `
+<nav
+  className="NavBar"
+>
+  <img
+    alt="Math"
+    src="logo.png"
+  />
+  <h1>
+    Math Magicians
+  </h1>
+  <div>
+    <a
+      aria-current="page"
+      className="link active"
+      href="/"
+      onClick={[Function]}
+      style={
+        Object {
+          "isActive": "active-link",
+        }
+      }
+    >
+      Home
+    </a>
+    <a
+      className="link"
+      href="/calculator"
+      onClick={[Function]}
+      style={
+        Object {
+          "isActive": "active-link",
+        }
+      }
+    >
+      Calculator
+    </a>
+    <a
+      className="link"
+      href="/quote"
+      onClick={[Function]}
+      style={
+        Object {
+          "isActive": "active-link",
+        }
+      }
+    >
+      Quote
+    </a>
+  </div>
+</nav>
+`;
