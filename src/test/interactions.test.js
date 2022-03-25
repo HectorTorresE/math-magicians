@@ -1,8 +1,7 @@
 import { BrowserRouter } from 'react-router-dom';
 import { screen, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import NavBar from '../components/navBar';
-import Calculator from '../components/calculator';
+import NavBar from '../components/navBar.js';
 
 describe('Navigation interaction', () => {
   test('Home', () => {
@@ -38,8 +37,6 @@ describe('Navigation interaction', () => {
     render(Element);
     const quote = screen.getByText('Quote');
     userEvent.click(quote);
-    const calculator = screen.getByText('Calculator');
-    const home = screen.getByText('Home');
     expect(quote.classList.contains('active')).toBeTruthy();
   });
 });
