@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
-import Calculator from '../components/calculator.js';
-import NavBar from '../components/navBar.js';
+import Calculator from '../components/calculator';
+import NavBar from '../components/navBar';
 
 describe('Components testing', () => {
   test('Calculator Component', () => {
