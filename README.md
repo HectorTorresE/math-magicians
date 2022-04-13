@@ -3,7 +3,7 @@
 # Math Magicians 🧮
 
  Math magicians is an app for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. 🧐
-![image](https://user-images.githubusercontent.com/31547587/158484525-6e710524-4d2e-443e-b8d8-bc95daaba965.png)
+![image](https://cdn.discordapp.com/attachments/963540541637804112/963607700883796088/unknown.png)
 
 ## Built With 🔍
 
